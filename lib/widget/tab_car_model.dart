@@ -3,13 +3,15 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:car_rental_app/constants.dart';
 
 class TabCarModel extends StatefulWidget {
-  TabCarModel({super.key});
+  const TabCarModel({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _TabCarModelState createState() => _TabCarModelState();
 }
 
 class _TabCarModelState extends State<TabCarModel> {
+  
   final List<Map<String, String>> carModels = [
     {'name': 'All', 'icon': ''},
     {'name': 'Ferrari', 'icon': 'assets/ferrari_logo.svg'},
