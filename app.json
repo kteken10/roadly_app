@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Rove",
+    "slug": "rove",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "rove",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FBFBFC",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dissangkevin.rove",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "Rove uses your location to surface the premium cars parked closest to you."
+      }
+    },
+    "android": {
+      "package": "com.dissangkevin.rove",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E0F11",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0E0F11",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ddc5c0ed-fd57-492f-b056-a7792e437414"
+      }
+    },
+    "owner": "tekennnnnn",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ddc5c0ed-fd57-492f-b056-a7792e437414"
+    }
+  }
+}
