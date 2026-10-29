@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 /**
- * Rove design tokens.
+ * Roadly design tokens.
  *
  * Every scale here is *closed*: if a value is not in one of these objects, it
  * does not belong in a stylesheet. That constraint is the whole point — an

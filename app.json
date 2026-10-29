@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "Rove",
-    "slug": "rove",
+    "name": "Roadly",
+    "slug": "roadly",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "rove",
+    "scheme": "roadly",
     "userInterfaceStyle": "light",
     "backgroundColor": "#FBFBFC",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.dissangkevin.rove",
+      "bundleIdentifier": "com.dissangkevin.roadly",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "NSLocationWhenInUseUsageDescription": "Rove uses your location to surface the premium cars parked closest to you."
       }
     },
     "android": {
-      "package": "com.dissangkevin.rove",
+      "package": "com.dissangkevin.roadly",
       "adaptiveIcon": {
         "backgroundColor": "#0E0F11",
         "foregroundImage": "./assets/android-icon-foreground.png",

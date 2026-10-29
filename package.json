@@ -1,5 +1,5 @@
 {
-  "name": "rove",
+  "name": "roadly",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "dependencies": {
@@ -40,7 +40,7 @@
     "start": "expo start",
     "ios": "eas build --profile development --platform ios",
     "start:go": "expo start --go",
-    "android": "expo start --android",
+    "android": "expo run:android",
     "web": "expo start --web",
     "prebuild": "expo prebuild",
     "typecheck": "tsc --noEmit",

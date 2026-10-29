@@ -39,3 +39,9 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Notes et références de travail, non publiées
+CLAUDE.md
+AGENTS.md
+.claude/
+design-references/
